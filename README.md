@@ -1,7 +1,7 @@
 # trabajoFinal
 
 
-## Algoritmo seleccionado:
+### Algoritmo seleccionado:
 
 Linear regression.
 
@@ -18,7 +18,7 @@ Entonces, el proceso de entrenamiento o generación del modelo consiste en calcu
 De acuerdo a la teoría, la evaluación del grado de acierto del modelo se realiza calculando residuos, que es la diferencia entre los valores de referencia y los calculados a partir del modelo.
 
 
-## Implementación en paralelo del algoritmo:
+### Implementación en paralelo del algoritmo:
 
 El paso inicial es cargar los datos para entrenamiento, con los cuales se construye una matriz. Ésta cuenta con una columna donde están los valores de las variables independientes y otra columna con los valores de la variable dependiente.
 El siguiente paso es llamar a la función de generación del modelo con los datos cargados previamente, en donde se especifica un número de iteraciones.
@@ -28,7 +28,7 @@ En cada iteración, se genera un grupo de coeficientes determinado, y se procede
 El procedimiento descrito anteriormente es similar al proceso Map-Reduce, donde el cálculo de los coeficientes se llevaría a cabo en la etapa Map, y la selección de la solución con el mínimo error en Reduce.
 
 
-## Instrucciones de ejecución:
+### Instrucciones de ejecución:
 
 El sistema operativo del computador en el que se desarrolló el trabajo es Ubuntu 16.04.
 La configuración del entorno de trabajo se llevó a cabo con la ayuda del siguiente tutorial https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f
